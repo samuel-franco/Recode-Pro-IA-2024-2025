@@ -68,4 +68,27 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
+<h2 id="colab">🤝 icentivadores </h2>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://pbs.twimg.com/profile_images/1552044322681344000/h408v-oe_400x400.jpg" width="100px;" alt="James Gosling - Pai do JAVA"/><br>
+        <sub>
+          <b>Elon Musk</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Bjarne-stroustrup_%28cropped%29.jpg" width="100px;" alt="Foto do Steve Jobs"/>Brendan Eich - Pai do JavaScript<br>
+        <sub>
+          <b>Steve Jobs</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
 ⭐ Feito com dedicação durante o curso de desenvolvimento Full Stack.
