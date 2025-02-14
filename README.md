@@ -82,7 +82,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Bjarne-stroustrup_%28cropped%29.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="![1516174155244](https://github.com/user-attachments/assets/ac0378c7-db70-4673-80e8-031b94d81848)" width="100px;" alt="Brendan Eich"/><br>
         <sub>
           <b>Brendan Eich, criador do JavaScript</b>
         </sub>
