@@ -92,7 +92,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
       <a href="#">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvmPtW81H-m4nTVQo0aMLeZha2ydXRY6WdXIvfOlP94icXnb3DIXDlD-I&usqp=CAE&s" width="100px;" alt="James Gosling"/><br>
         <sub>
-          <b>Brendan Eich, criador do JavaScript</b>
+          <b>Bjorne Stroustrup, criador do C++</b>
         </sub>
       </a>
     </td>
