@@ -82,7 +82,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://media.licdn.com/dms/image/v2/C4E03AQEFjUGBArfpSA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516174155271?e=1744848000&v=beta&t=GDz2xSiHDCpS-    hsUBAfm0xXmQq_MizVk0nEdF2qcUKI" width="100px;" alt="Brendan Eich"/><br>
+        <img src="https://pbs.twimg.com/profile_images/603270050556956672/T0mfRsil_400x400.png" width="100px;" alt="James Gosling"/><br>
         <sub>
           <b>Brendan Eich, criador do JavaScript</b>
         </sub>
