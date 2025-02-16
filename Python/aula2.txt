@@ -1,0 +1,16 @@
+📌 Objetivo: Expandir o sistema, implementando estruturas de repetição, listas e dicionários para gerenciar clientes e serviços oferecidos.
+ 
+📂 Módulo 2: Cadastro de Clientes e Serviços
+📌 Funcionalidades:
+✅ Cadastro de clientes (nome, telefone e pet vinculado)
+✅ Listagem de clientes cadastrados
+✅ Agendamento de serviços (banho, tosa, consulta)
+✅ Listagem de serviços agendados
+✅ Cancelamento de agendamentos
+ 
+📜 Especificação Técnica
+Cadastro de clientes: Nome, telefone e pet associado armazenados em um dicionário.
+Agendamento de serviços: O cliente escolhe um serviço, e ele é armazenado em uma lista.
+Listagem de serviços: Exibe todos os serviços agendados.
+Cancelamento de agendamento: O usuário pode remover um serviço da lista.
+ 
