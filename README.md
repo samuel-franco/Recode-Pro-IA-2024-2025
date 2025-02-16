@@ -104,27 +104,5 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 📚 Python
 
 ## Aula 1 - Fundamentos de Python: Variáveis
+![image](https://github.com/user-attachments/assets/b2f3da29-3ade-4bcc-b997-bdab31c1512a)
 
-```
-Variaveis em Python são espaços(caixas) que sevem para armazenar informações que podem ser usadas no desenvolvimento dos códigos.
-
-# Variáveis
-nome_produto = 'Notebook Gamer'
-preco_produto = 4999.90
-quantida_em_estoque = 15
-produto_disponivel = True
-descricao_produto = 'Notebook de alto desempenho para jogos.'
-
-print('Nome do produto:', nome_produto)
-print('Preço:', preco_produto)
-print('Quantidade em estoque:', quantida_em_estoque)
-print('Produto disponível:', produto_disponivel)
-print('Descrição do produto:', descricao_produto)
-
-Saída:
-Nome do produto: Notebook Gamer
-Preço: 4999.9
-Quantidade em estoque: 15
-Produto disponível: True
-Descrição do produto: Notebook de alto desempenho para jogos.
-```
