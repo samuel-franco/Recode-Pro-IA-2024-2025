@@ -100,3 +100,24 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 </table>
 
 ⭐ Feito com dedicação durante o curso de desenvolvimento Full Stack.
+
+## 📚 Python
+
+## Aula 1 - Fundamentos de Python: Variáveis
+
+```
+Variaveis em Python são espaços(caixas) que sevem para armazenar informações que podem ser usadas no desenvolvimento dos códigos.
+
+# Variáveis
+nome_produto = 'Notebook Gamer'
+preco_produto = 4999.90
+quantida_em_estoque = 15
+produto_disponivel = True
+descricao_produto = 'Notebook de alto desempenho para jogos.'
+
+print('Nome do produto:', nome_produto)
+print('Preço:', preco_produto)
+print('Quantidade em estoque:', quantida_em_estoque)
+print('Produto disponível:', produto_disponivel)
+print('Descrição do produto:', descricao_produto)
+```
