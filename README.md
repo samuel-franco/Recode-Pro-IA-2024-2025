@@ -120,4 +120,11 @@ print('Preço:', preco_produto)
 print('Quantidade em estoque:', quantida_em_estoque)
 print('Produto disponível:', produto_disponivel)
 print('Descrição do produto:', descricao_produto)
+
+Saída:
+Nome do produto: Notebook Gamer
+Preço: 4999.9
+Quantidade em estoque: 15
+Produto disponível: True
+Descrição do produto: Notebook de alto desempenho para jogos.
 ```
