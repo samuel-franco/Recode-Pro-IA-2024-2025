@@ -106,9 +106,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## Aula 1 - Fundamentos de Python: Variáveis
 
 Variáveis
-![image](https://github.com/user-attachments/assets/b2f3da29-3ade-4bcc-b997-bdab31c1512a)
+![image](https://github.com/user-attachments/assets/2e6b79a3-a64e-402a-8617-22c16bd00483)
 
 Tipos de dados
-![image](https://github.com/user-attachments/assets/51d4f888-0853-413d-9d8f-d4bce5401d55)
-
-
+![image](https://github.com/user-attachments/assets/f317f718-d933-4b08-8d91-c51e2a314c8b)
