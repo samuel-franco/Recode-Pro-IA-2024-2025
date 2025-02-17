@@ -100,3 +100,15 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 </table>
 
 ⭐ Feito com dedicação durante o curso de desenvolvimento Full Stack.
+
+## 📚 Python
+
+## Aula 1 - Fundamentos de Python: Variáveis
+
+Variáveis
+![image](https://github.com/user-attachments/assets/b2f3da29-3ade-4bcc-b997-bdab31c1512a)
+
+Tipos de dados
+![image](https://github.com/user-attachments/assets/51d4f888-0853-413d-9d8f-d4bce5401d55)
+
+
