@@ -110,3 +110,7 @@ Variáveis
 
 Tipos de dados
 ![image](https://github.com/user-attachments/assets/f317f718-d933-4b08-8d91-c51e2a314c8b)
+
+Entrada e saída de dados
+![image](https://github.com/user-attachments/assets/90dbd8ad-14c1-46c0-bd04-726823a2401c)
+
