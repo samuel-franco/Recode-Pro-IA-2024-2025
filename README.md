@@ -114,3 +114,5 @@ Tipos de dados
 Entrada e saída de dados
 ![image](https://github.com/user-attachments/assets/90dbd8ad-14c1-46c0-bd04-726823a2401c)
 
+Estruturas condicionais
+![image](https://github.com/user-attachments/assets/9aee5466-6949-4556-bb0b-f0ee3bc310b2)
