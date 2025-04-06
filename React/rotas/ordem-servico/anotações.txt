@@ -1,0 +1,13 @@
+import { useState } from 'react'; 
+import './StatusServico.css'; 
+export default function StatusServico (props) { 
+const [status, setStatus] = useState (props.status); 
+return ( 
+    <div> 
+        <div className={`status ${status.replace(' ', '-')}`}>Status: (status) </div> 
+        <button onClick={() => setStatus('aberto')}>Abrir</button> 
+        <button onClick={() => setStatus('em andamento')}>Em Andamento</button>
+        <button onClick={() => setStatus('fechado')}>Fechar</button> 
+    </div> 
+    );
+}

@@ -1,0 +1,20 @@
+Explorando os métodos: 
+
+forEach: uma função versátil para percorrer cada elemento de um Array, executando uma ação específica para cada um.
+
+map: transforma cada elemento de um Array em um novo elemento, gerando um novo Array com as alterações.
+
+filter: cria um novo Array que contém apenas os elementos que atendem a um critério específico.
+
+find: busca um elemento específico em um Array e o retorna caso ele atenda a um critério predefinido.
+
+every: verifica se todos os elementos de um Array atendem a uma condição, retornando true caso todos os elementos a atendam, caso contrário, retorna false.
+
+some: verifica se pelo menos um elemento de um Array atende a uma condição, retornando true se pelo menos um elemento a atende, caso contrário, retorna false.
+
+reduce: combina todos os elementos de um Array em um único valor, aplicando uma função cumulativa a cada um.
+
+
+
+
+

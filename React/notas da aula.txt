@@ -1,0 +1,106 @@
+import { useState } from 'react'; 
+import './StatusServico.css'; 
+export default function StatusServico (props) { 
+const [status, setStatus] = useState (props.status); 
+return ( 
+    <div> 
+        <div className={`status ${status.replace(' ', '-')}`}>Status: (status) </div> 
+        <button onClick={() => setStatus('aberto')}>Abrir</button> 
+        <button onClick={() => setStatus('em andamento')}>Em Andamento</button>
+        <button onClick={() => setStatus('fechado')}>Fechar</button> 
+    </div> 
+    );
+}
+--------------------------------------------------------------------------------------------------------
+
+
+import React, { useState } from 'react'
+ 
+const Servico = () => {
+ 
+  const [status, setStatus] = useState('');
+ 
+  const abrir = () => {
+    setStatus('Aberto');
+  }
+ 
+  const andamento = () => {
+    setStatus('Em Andamento');
+  }
+ 
+  const fechar = () => {
+    setStatus('Fechado');
+  }
+ 
+  const getStatusClass = () => {
+    switch (status) {
+      case 'Aberto':
+        return 'green';
+     
+      case 'Em Andamento':
+        return 'yellow';
+ 
+      case 'Fechado':
+        return 'red';
+ 
+      default:
+        return;
+    }
+  };
+ 
+  return (
+    <div>
+      <div>Nossos Serviços</div>
+      <h1>Sistema de Ordem de Serviço</h1>
+      <div>
+        <button onClick={abrir}>Abrir</button>
+        <button onClick={andamento}>Em Andamento</button>
+        <button onClick={fechar}>Fechar</button>
+      </div>
+ 
+      {status && (
+        <div className={`status ${getStatusClass()}`}>
+          Status: {status}
+        </div>
+      )}
+    </div>
+  );
+};
+ 
+export default Servico;
+--------------------------------------------------------------------------------------------------------
+Componente botoes:
+ 
+import React from 'react'
+import { useState } from 'react'
+import styles from './servicos.module.css'
+ 
+function App() {
+  const [mensagem, setMensagem] = useState("");
+ 
+  const mostrarMensagem = (event) => {
+    const valor = event.target.value;
+    if (valor === '1') {
+      setMensagem("Status: Aberto");
+    } else if (valor === '2') {
+      setMensagem("Status: Em andamento");
+    }else{
+        setMensagem("Status: Fechado");
+    }
+  };
+ 
+  return (
+   
+    <div>
+      <button className={styles.botoes} onClick={mostrarMensagem} id='bt1' value='1'>Abrir</button>
+      <button className={styles.botoes} onClick={mostrarMensagem} id='bt2' value='2'>Em andamento</button>
+      <button className={styles.botoes} onClick={mostrarMensagem} id='bt3' value='3'>Fechado</button>
+      <h1>{mensagem}</h1>
+    </div>
+  );
+}
+ 
+export default App;
+
+
+

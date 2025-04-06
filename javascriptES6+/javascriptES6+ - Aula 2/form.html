@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        form {
+            background: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label,
+        input,
+        button {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="meuFormulario">
+        <h1>Calculadora</h1>
+        <label for="campo1">Número 1:</label>
+        <input type="text" id="campo1" name="campo1">
+
+
+
+        <label for="campo2">Número 2:</label>
+        <input type="text" id="campo2" name="campo2">
+
+
+
+        <label for="resultado">Resultado:</label>
+        <input type="text" id="resultado" name="resultado" disabled>
+    </form>
+
+
+    <script>
+        function mostrarValores() {
+            let campo1 = Number(document.getElementById("campo1").value);
+            let campo2 = parseFloat(document.getElementById("campo2").value);
+
+            let soma = campo1 + campo2;
+
+            document.getElementById("resultado").value = soma;
+        }
+
+        function calcular() {
+            let c1 = Number(document.getElementById("campo1").value);
+            let c2 = Number(document.getElementById("campo2").value);
+
+            let soma = c1 + c2;
+
+            document.getElementById('resultado').value = soma;
+        }
+
+        document.getElementById("campo2").addEventListener('blur', calcular);
+    </script>
+</body>
+
+</html>
+ 

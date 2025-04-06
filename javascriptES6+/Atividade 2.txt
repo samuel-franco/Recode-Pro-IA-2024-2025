@@ -1,0 +1,64 @@
+Dá tão certo, que os índices/taxas a quantidade de mulher solteira só aumenta. 
+
+
+O que é esse demonstrar interesse que você fala?
+Quando conheci minha namorada ,antes era só amizade.
+
+
+
+📋 Enunciado
+Crie um sistema de vendas simplificado utilizando JavaScript puro, focado nas estruturas básicas de dados (arrays e objetos). O sistema deve simular o gerenciamento de produtos, clientes, vendedores e vendas.
+O objetivo é consolidar os conceitos aprendidos até aqui, especialmente sobre métodos de arrays, manipulação de objetos e operações básicas. O projeto deve contemplar operações como:
+Cadastro, consulta, alteração e exclusão de produtos, clientes e vendas.
+Realizar vendas registrando cliente, produtos e quantidade vendida.
+Exibir relatórios simples (total de vendas, histórico de compras por cliente, estoque atual, etc.).
+ 
+🎯 Objetivos do Projeto
+Aplicar conceitos de Arrays e Objetos em JavaScript.
+Trabalhar operações básicas de CRUD (Create, Read, Update, Delete).
+Exercitar os principais métodos de arrays: push, pop, splice, map, filter, find, etc.
+Integrar e combinar diferentes estruturas de dados em operações comuns de sistemas comerciais.
+Gerar relatórios práticos com as operações realizadas.
+ 
+🛠️ Estrutura básica dos dados
+1. Produtos
+id (número único)
+nome
+preço
+estoque
+2. Clientes
+id (número único)
+nome
+telefone
+3. Vendas
+id (número único)
+cliente (referência ao cliente que realizou a compra)
+produtos vendidos (array contendo ids e quantidades)
+valor total da venda
+ 
+🧩 Etapas para Criação do Projeto
+✅ Etapa 1: Configuração Inicial
+Criar uma pasta para o projeto.
+Adicionar arquivos:
+index.html
+app.js
+style.css (opcional para estilização básica)
+Vincular o JavaScript ao HTML.
+ 
+✅ Etapa 2: Criar Estrutura de Dados
+Em app.js, crie arrays para armazenar produtos, clientes e vendas:
+ 
+🔧 Etapa 3: Funções de CRUD Básico
+Implemente funções para manipular dados:
+Produtos (addProduto, listarProdutos, removerProduto, alterarProduto)
+Clientes (semelhante aos produtos)
+Vendas (realizar e armazenar vendas com data, cliente, produtos e quantidade)
+ 
+🛒 Etapa 3: Implementar Lógica de Vendas
+Crie funções para realizar vendas, reduzindo o estoque dos produtos vendidos e armazenando a venda no array de vendas:
+ 
+📈 Etapa 3: Criar Funções para Relatórios
+Criar funções que geram relatórios básicos:
+Total de vendas realizadas.
+Histórico de vendas por cliente.
+Estoque atual de produtos.
